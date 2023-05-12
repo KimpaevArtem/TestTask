@@ -6,7 +6,7 @@ describe('Subtitles', () => {
 
     it('subtitles-functionality', () => {
 
-        cy.visit('https://cine-books.com/');
+        cy.visit('https://cine-books.com/')
         cy.viewport(1920, 1080);
 
         //Scroll to video banner
