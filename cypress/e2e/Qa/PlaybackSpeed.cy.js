@@ -1,4 +1,4 @@
-import Main from './PageObject/Main';
+import Main from './PageObject/main';
 
 describe('Subtitles', () => {
 
@@ -75,7 +75,8 @@ describe('Subtitles', () => {
         cy.wait(10000);
 
         //Assertion that current time displayed on a player is more then 10 seconds (that we forced to wait in the previous command)
-        main.currntDuration().then(($timer) => {
+        main.currntDuration()
+        .then(($timer) => {
 
             const actualTime = new Date ('1970-01-01T' + $timer.text() + 'Z')
             const expectedTime = new Date ("January 1, 1970 03:00:10")

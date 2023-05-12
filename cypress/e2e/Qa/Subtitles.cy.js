@@ -1,4 +1,4 @@
-import Main from './PageObject/Main';
+import Main from './PageObject/main';
 
 describe('Subtitles', () => {
     
