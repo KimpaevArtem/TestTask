@@ -1,0 +1,29 @@
+Summary : 
+Background color of google.com page become black when dark theme is deactivated via button on a footer
+
+Description :
+When the dark theme is deactivated via button on a footer - the bakground color of google.com page become totally black. 
+The issue is reproduced only on real device (iPhone 12 Pro). On chrome dev tools simulator the issue is not reproduced
+
+Steps :
+1. Open google.com on mobile
+2. Scroll down to the footer
+3. Click on 'Dark theme: off' button (to activate dark theme)
+4. Click one more time on 'Dark theme: on' button (to deactivate dark theme) 
+5. Observe the results
+
+Actual result :
+1. The background of a page become totally black (until the page is refreshed)
+Please see attached screenrecording.
+
+Expected result :
+1. As the dark theme is deactivated the page should become as default (light theme)
+
+Environment :
+Tested on iPhone 12 Pro. Safari and Chrome browsers
+
+Pririty :
+Considered to be low
+
+Sevirity :
+Considered to be low
